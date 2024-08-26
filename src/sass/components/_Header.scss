@@ -1,0 +1,20 @@
+@import "../utils/mixins";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include mobile {
+    flex-direction: column;
+  }
+}
+/* Use the ::after pseudo-element to create the border */
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px; /* This sets the thickness of the border */
+  background: linear-gradient(to bottom, red, white); /* Your gradient */
+}
