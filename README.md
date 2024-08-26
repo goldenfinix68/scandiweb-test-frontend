@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+This assignment tests minimum skills and knowledge required to successfully kick start your career at scandiweb. \
+The test helps us to assess your level and it helps you to check whether your level is already good to join us as a Junior Developer. \
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Frontend
 
-## Available Scripts
+#### 1. Product List
 
-In the project directory, you can run:
+<img src="https://scandiweb.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe83ca9a2-5be8-4d2c-a777-462a7af67a45%2FScreenshot_2021-04-28_at_11.57.38.png?table=block&amp;id=4baf2e7e-7d44-47ba-9dfa-300be16c18cc&amp;spaceId=196736dd-250f-45b1-ac1f-c4302855a2f9&amp;width=2000&amp;userId=&amp;cache=v2"/>
 
-### `npm start`
+### 2. Add Product Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://scandiweb.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fad38993a-6d19-4b8d-af9c-bcab87249dca%2FScreenshot_2021-04-28_at_12.53.19.png?table=block&amp;id=c7a4b4bc-8cb2-4d1d-852c-0cc9ba6a714a&amp;spaceId=196736dd-250f-45b1-ac1f-c4302855a2f9&amp;width=2000&amp;userId=&amp;cache=v2"/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Detailed requirements](https://scandiweb.notion.site/Junior-Developer-Test-Task-1b2184e40dea47df840b7c0cc638e61e)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
