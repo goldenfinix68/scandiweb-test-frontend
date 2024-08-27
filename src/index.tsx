@@ -5,17 +5,22 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./sass/base/_base.scss";
 import { ProductProvider } from "./providers/product.provider/product.provider";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
+const queryClient = new QueryClient();
+
 root.render(
   <React.StrictMode>
     <Router>
-      <ProductProvider>
-        <App />
-      </ProductProvider>
+      <QueryClientProvider client={queryClient}>
+        <ProductProvider>
+          <App />
+        </ProductProvider>
+      </QueryClientProvider>
     </Router>
   </React.StrictMode>
 );
