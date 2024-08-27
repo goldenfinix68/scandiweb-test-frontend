@@ -13,3 +13,14 @@ body {
   width: 100vw;
   min-height: 100vh;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.main {
+  flex-grow: 1;
+}
