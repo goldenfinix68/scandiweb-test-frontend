@@ -18,7 +18,6 @@ export function FormInput({ type, id, title, error, value, onChange }: Props) {
       <input
         type={type}
         id={id}
-        name={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className={error ? "error" : ""}
