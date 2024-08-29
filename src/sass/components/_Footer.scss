@@ -1,4 +1,14 @@
+@import "../utils/variables";
+
 .footer {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: $footer-height;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: $color-dark;
 }
