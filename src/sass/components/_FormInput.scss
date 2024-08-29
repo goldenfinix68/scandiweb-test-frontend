@@ -1,0 +1,21 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.form-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.error {
+  border: $color-danger 1px solid !important;
+
+  &:focus {
+    outline: $color-danger 1px solid !important;
+    box-shadow: 0 0 2px 2px $color-danger !important;
+  }
+}
